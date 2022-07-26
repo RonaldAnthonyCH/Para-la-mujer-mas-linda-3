@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+}
+
+.contenedor{
+    background-image:url(https://i.pinimg.com/originals/ed/11/d1/ed11d1039fd99c6e7b4f09dd2d7e5205.jpg);
+    object-position: center;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+}
+
+p{
+    font-size: xx-large;
+    font-family: 'Times New Roman', cursive;
+    color:aliceblue;
+    padding: 15%;
+}
+
+button{
+    font-size: xx-large;
+    color:currentColor
+    padding: 0.30em;
+}
+
+#yesBtn{
+    transform: translate(-100%,0);
+}
+
+#noBtn{
+    position: absolute;
+}
